@@ -25,6 +25,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  </div>
 <div class="collapse navbar-collapse" id=""navbarSupportedContent"">
   <ul class="navbar-nav mr-auto">
       <tr>
@@ -53,16 +54,16 @@
   </li>
 </ul>
 
-<section id="Intro"
-<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselIndicators" data-slide-to="4"></li>
-  </ol>
+<section id="Intro">
+  <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
+    <div class="carousel-indicators">
+  <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
     <div class="carousel-item active">
       <img class="intro-img" src="images/Блузка1.jpg" class="img-thumbnail" alt="Женское">
     </div>
@@ -79,11 +80,11 @@
       <img class="intro-img" src="images/Платье1.jpg" class="img-thumbnail" alt="Женское">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-target="#carouselIndicators" data-slide="prev" style="background:#cbc0d3; border-radius: 10%;">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev" style="background:#cbc0d3; border-radius: 10%;">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-target="#carouselIndicators" data-slide="next" style="background:#cbc0d3; border-radius: 10%;">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next" style="background:#cbc0d3; border-radius: 10%;">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </button>
